@@ -1,0 +1,8 @@
+1. Decision tree: recursively splits data into branches and predicts at leaf nodes.
+2. Entropy: impurity/uncertainty; information gain: reduction in impurity after a split.
+3. Random forest: combines many trees to improve generalization and reduce variance.
+4. Overfitting: great training performance but poorer unseen-data performance; control depth, minimum samples, pruning, or use ensembles.
+5. Bagging: trains models on bootstrap samples and combines predictions.
+6. Visualization: sklearn plot_tree() or Graphviz.
+7. Feature importance: relative contribution to model splits; it does not prove causation.
+8. Random forest: accurate and robust, but less interpretable and more computationally expensive than one tree.

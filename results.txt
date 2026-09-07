@@ -1,0 +1,21 @@
+Task 5 Results
+Dataset: Breast Cancer Wisconsin Diagnostic
+Samples: 569, Features: 30
+Decision Tree best max_depth: 2
+Decision Tree test accuracy: 0.8947
+Decision Tree 5-fold CV accuracy: 0.9319
+Random Forest trees: 200
+Random Forest test accuracy: 0.9561
+Random Forest 5-fold CV accuracy: 0.9626
+
+Top 10 feature importances:
+worst perimeter         0.133100
+worst area              0.128052
+worst concave points    0.108107
+mean concave points     0.094414
+worst radius            0.090639
+mean radius             0.058662
+mean perimeter          0.055242
+mean area               0.049938
+mean concavity          0.046207
+worst concavity         0.035357
